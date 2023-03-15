@@ -15,8 +15,6 @@
 		450B660F29147D4D0057517C /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450B660E29147D4D0057517C /* iPhone.storyboard */; };
 		4573A445294683D1000A036A /* ProfileTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4573A443294683D1000A036A /* ProfileTableViewCell.m */; };
 		4573A446294683D1000A036A /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4573A444294683D1000A036A /* ProfileTableViewCell.xib */; };
-		457A2DFB29C0E0BA00B6396B /* X1Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A2DFA29C0E0BA00B6396B /* X1Kit.swift */; };
-		457A2DFC29C0E0BA00B6396B /* X1Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A2DFA29C0E0BA00B6396B /* X1Kit.swift */; };
 		457A303A29C10D2700B6396B /* enet.dsp in Resources */ = {isa = PBXBuildFile; fileRef = 457A301129C10D2600B6396B /* enet.dsp */; };
 		457A303B29C10D2700B6396B /* callbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 457A301229C10D2600B6396B /* callbacks.c */; };
 		457A303C29C10D2700B6396B /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 457A301329C10D2700B6396B /* compress.c */; };
@@ -71,6 +69,7 @@
 		457A30A429C1101100B6396B /* RecorderCallbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 457A308829C1101100B6396B /* RecorderCallbacks.c */; };
 		457A30A529C1101100B6396B /* LinkedBlockingQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 457A308929C1101100B6396B /* LinkedBlockingQueue.c */; };
 		457A30A629C1101100B6396B /* ByteBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 457A308B29C1101100B6396B /* ByteBuffer.c */; };
+		457A30AD29C14DEF00B6396B /* X1Kit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457A30AC29C14DEE00B6396B /* X1Kit.swift */; };
 		45875DA329AD505D00F3A90A /* LoadingFrameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A23B71A9D3637004D2EF2 /* LoadingFrameViewController.m */; };
 		45999AEE2935451D0073975D /* OSCProfilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45999AED2935451D0073975D /* OSCProfilesTableViewController.m */; };
 		45E9CBF529453CDC00C88D96 /* ToolBarContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9CBF429453CDC00C88D96 /* ToolBarContainerView.m */; };
@@ -209,7 +208,6 @@
 		4573A442294683D1000A036A /* ProfileTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewCell.h; sourceTree = "<group>"; };
 		4573A443294683D1000A036A /* ProfileTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewCell.m; sourceTree = "<group>"; };
 		4573A444294683D1000A036A /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
-		457A2DFA29C0E0BA00B6396B /* X1Kit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = X1Kit.swift; sourceTree = "<group>"; };
 		457A301129C10D2600B6396B /* enet.dsp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = enet.dsp; sourceTree = "<group>"; };
 		457A301229C10D2600B6396B /* callbacks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = callbacks.c; sourceTree = "<group>"; };
 		457A301329C10D2700B6396B /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
@@ -287,6 +285,7 @@
 		457A308929C1101100B6396B /* LinkedBlockingQueue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LinkedBlockingQueue.c; sourceTree = "<group>"; };
 		457A308A29C1101100B6396B /* PlatformSockets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlatformSockets.h; sourceTree = "<group>"; };
 		457A308B29C1101100B6396B /* ByteBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ByteBuffer.c; sourceTree = "<group>"; };
+		457A30AC29C14DEE00B6396B /* X1Kit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = X1Kit.swift; sourceTree = "<group>"; };
 		45999AEC2935451D0073975D /* OSCProfilesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSCProfilesTableViewController.h; sourceTree = "<group>"; };
 		45999AED2935451D0073975D /* OSCProfilesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSCProfilesTableViewController.m; sourceTree = "<group>"; };
 		45E9CBF329453CDC00C88D96 /* ToolBarContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToolBarContainerView.h; sourceTree = "<group>"; };
@@ -586,39 +585,6 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		457A2BAE29C0D97400B6396B /* X1Kit */ = {
-			isa = PBXGroup;
-			children = (
-				457A2BBD29C0E07300B6396B /* X1Kit */,
-			);
-			name = X1Kit;
-			path = ../../Desktop/X1Kit/X1Kit;
-			sourceTree = "<group>";
-		};
-		457A2BBD29C0E07300B6396B /* X1Kit */ = {
-			isa = PBXGroup;
-			children = (
-				457A2BBE29C0E07300B6396B /* Sources */,
-			);
-			path = X1Kit;
-			sourceTree = "<group>";
-		};
-		457A2BBE29C0E07300B6396B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				457A2BBF29C0E07300B6396B /* X1Kit */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		457A2BBF29C0E07300B6396B /* X1Kit */ = {
-			isa = PBXGroup;
-			children = (
-				457A2DFA29C0E0BA00B6396B /* X1Kit.swift */,
-			);
-			path = X1Kit;
-			sourceTree = "<group>";
-		};
 		457A300429C10C8E00B6396B /* moonlight-common */ = {
 			isa = PBXGroup;
 			children = (
@@ -775,6 +741,38 @@
 			path = src;
 			sourceTree = "<group>";
 		};
+		457A30A829C14DEE00B6396B /* X1Kit */ = {
+			isa = PBXGroup;
+			children = (
+				457A30A929C14DEE00B6396B /* X1Kit */,
+			);
+			path = X1Kit;
+			sourceTree = "<group>";
+		};
+		457A30A929C14DEE00B6396B /* X1Kit */ = {
+			isa = PBXGroup;
+			children = (
+				457A30AA29C14DEE00B6396B /* Sources */,
+			);
+			path = X1Kit;
+			sourceTree = "<group>";
+		};
+		457A30AA29C14DEE00B6396B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				457A30AB29C14DEE00B6396B /* X1Kit */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		457A30AB29C14DEE00B6396B /* X1Kit */ = {
+			isa = PBXGroup;
+			children = (
+				457A30AC29C14DEE00B6396B /* X1Kit.swift */,
+			);
+			path = X1Kit;
+			sourceTree = "<group>";
+		};
 		FB1A67542132419700507771 /* Moonlight TV */ = {
 			isa = PBXGroup;
 			children = (
@@ -790,7 +788,6 @@
 		FB290CE519B2C406004C83CF = {
 			isa = PBXGroup;
 			children = (
-				457A2BAE29C0D97400B6396B /* X1Kit */,
 				FB290CF919B2C406004C83CF /* Moonlight */,
 				457A300429C10C8E00B6396B /* moonlight-common */,
 				FB1A67542132419700507771 /* Moonlight TV */,
@@ -832,6 +829,7 @@
 		FB290CF919B2C406004C83CF /* Moonlight */ = {
 			isa = PBXGroup;
 			children = (
+				457A30A829C14DEE00B6396B /* X1Kit */,
 				D4746EEA1CBC740C006FB401 /* Moonlight-Bridging-Header.h */,
 				FB89460419F646E200339C8A /* Crypto */,
 				FB89460919F646E200339C8A /* Input */,
@@ -1337,7 +1335,6 @@
 				FB1A67DC2132460400507771 /* KeyboardSupport.m in Sources */,
 				FB1A67CD213245F800507771 /* DataManager.m in Sources */,
 				FB1A67CF213245F800507771 /* TemporaryApp.m in Sources */,
-				457A2DFC29C0E0BA00B6396B /* X1Kit.swift in Sources */,
 				45875DA329AD505D00F3A90A /* LoadingFrameViewController.m in Sources */,
 				FB1A67D1213245F800507771 /* TemporaryHost.m in Sources */,
 				FB1A67D3213245F800507771 /* TemporarySettings.m in Sources */,
@@ -1418,6 +1415,7 @@
 				45999AEE2935451D0073975D /* OSCProfilesTableViewController.m in Sources */,
 				FB4678FA1A55FFAD00377732 /* DiscoveryManager.m in Sources */,
 				98D5856D1C0EA79600F6CC00 /* TemporaryHost.m in Sources */,
+				457A30AD29C14DEF00B6396B /* X1Kit.swift in Sources */,
 				FB89463519F646E200339C8A /* MainFrameViewController.m in Sources */,
 				FBD1C8E21A8AD71400C6703C /* Logger.m in Sources */,
 				FB1D599A1BBCCD7E00F482CA /* AppCollectionView.m in Sources */,
@@ -1446,7 +1444,6 @@
 				FB9AFD3D1A7E111600872C98 /* AppAssetResponse.m in Sources */,
 				FBD349621A0089F6002D2A60 /* DataManager.m in Sources */,
 				457A303B29C10D2700B6396B /* callbacks.c in Sources */,
-				457A2DFB29C0E0BA00B6396B /* X1Kit.swift in Sources */,
 				457A305529C10D2700B6396B /* win32.c in Sources */,
 				457A309E29C1101100B6396B /* VideoDepacketizer.c in Sources */,
 				450112CA29563A9600FD306F /* OSCProfile.m in Sources */,
